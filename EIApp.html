@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="./main.css">
+<title>Excel Interiors</title>
+
+<div><a href="./index.html">← Go Back</a></div>
+<div>
+    <div class="flex">
+        <img class="EI" src="./img/Excel Interiors/EIASignin.png" />
+        <p><a class="project-link" target="_blank" href="https://github.com/ashleyschuette/personal-project">Excel Interiors' customer management application</a> 
+            is an end to end React application I developed and designed using:
+            <br>
+                - React
+                <br>
+                - Redux
+                <br>
+                - Node.js
+                <br>
+                - PostgreSQL
+                <br>
+                - Auth0
+                <br>
+                - SASS
+                <br>
+                - Express
+                <br>
+                - Stripe
+            <br>    
+            <br>
+            The <bold><italic>sign in page</italic></bold> features a high resolution background image
+            to cover the viewport and once the sign in button is clicked the user signs in using Auth0.
+        </p>
+    </div>
+
+    <div class="flex">
+        <img class="MR" src="./img/Excel Interiors/EIAcustomers.png" />
+        <p>When the user signs in, a function runs to determine if the user is an admin. 
+            If true, the <bold><italic>customers page</bold></italic> renders.
+            <br>
+            <br>
+            Here the admin is able to search through all the customers in the database using the 
+            search bar, that is neither case sensitive or order sensitive, powered by a SQL query.
+        </p>
+    </div>
+
+    <div class="flex">
+        <img class="MR" src="./img/Excel Interiors/EIAnewcustomer.png" />
+        <p>The <bold><italic>create new customer</bold></italic> page is rendered
+            when the admin clicks on the plus sign in the lower right hand corner.
+            <br>
+            <br>
+            When the save button is clicked a post request is made to the database
+            which adds a new customer to the appropriate table.
+        </p>
+    </div>
+
+    <div class="flex">
+        <img class="MR" src="./img/Excel Interiors/EIAinvoices.png" />
+        <p>To render the <bold><italic>invoices page</bold></italic> a get request is 
+            made to grab all invoices and a SQL query joining two tables together allows for 
+            the appropriate information to render.
+        </p>
+    </div>
+
+    <div class="flex">
+        <img class="MR" src="./img/Excel Interiors/EIAcustomersignin.png" />
+        <p>Once a customer signs in, a function is ran to grab their <bold><italic>invoices</bold></italic> 
+            by their ID and render them on the front end.
+            <br>
+            <br>
+            With the help of a function, some inline styling and a ternary, the customers navigational option 
+            dissapears from view, so their not granted access to all the customers in the database.
+        </p>
+    </div>
+
+    <div class="flex">
+        <img class="MR" src="./img/Excel Interiors/EIA1invoice.png" />
+        <p>Once the customer clicks on thier <bold><italic>invoice</bold></italic> a get request is 
+            made to grab all appropriate invoice information.
+            <br>
+            <br>
+            The customer can now click "Make A Payment" to pay using the Stripe API.
+        </p>
+    </div>
+
+</div>
