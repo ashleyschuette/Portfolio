@@ -101,11 +101,12 @@ li:nth-child(6) {
 
 li:nth-child(7) {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 li:nth-child(8) {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #DevMountain {
@@ -121,7 +122,8 @@ li:nth-child(10) {
 }
 
 li:nth-child(11) {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 li:nth-child(12) {
@@ -130,11 +132,6 @@ li:nth-child(12) {
 
 li:nth-child(13) {
     margin-top: 10px;
-}
-
-li:nth-child(14) {
-    margin-top: 10px;
-    
 }
 
 
